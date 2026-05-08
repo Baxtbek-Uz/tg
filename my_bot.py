@@ -11,8 +11,8 @@ from telegram.ext import (
 from telegram.request import HTTPXRequest
 from datetime import datetime
 
-TOKEN = os.getenv("BOT_TOKEN", "8640724665:AAFHa2TA9nW0JP2c8W3jnYRuQtXe64RWXqQ")
-WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "ce37637127d5f582518c458302470928")
+TOKEN = os.getenv("BOT_TOKEN", "BOT_TOKEN")
+WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "WHEATHER_TOKEN")
 WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"
 GEO_URL = "https://api.openweathermap.org/geo/1.0/direct"
